@@ -1,0 +1,107 @@
+html, body {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #333;
+}
+
+
+/* Start of Navigation */
+
+.topnav {
+	background: rgb(59, 12, 12);
+    color: #D14233;
+    padding: 0;
+    min-height: 0;
+    height: 110px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.link-nav {   
+	padding-top: 10px;
+}
+
+.link-nav > li {   
+  display: inline;  
+}
+
+.topnav .link-nav > li > a {
+	color: #D14233;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.topnav .link-nav > li:hover {
+	border: 2px solid #D14233;
+	color: #D14233;
+}
+
+.link-nav > li {
+    padding: 5px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    background-color: #f2e8e800;
+    background-image: none;
+    border: 1px solid;
+    border-radius: 0px;
+}
+
+
+
+
+/* Login and Register component */
+.signup {
+  margin-top: 10px;
+  margin-bottom: 130px;
+}
+
+.content h3 {
+  margin-top: 30px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+
+/* Part of footer */
+.foot-txt ul > li {
+  padding: 10px 10px;
+  padding-top: 35px;
+  font-size: 15px;
+  list-style: none;
+  color: #fff;
+}
+footer.footer {
+  background-color: rgb(50, 12, 12);
+  margin-top: 2rem;
+}
+.social ul {
+  padding-left: 55%;
+}
+.social ul > li {
+  list-style: none;
+  float: left;
+  padding: 10px 15px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.social ul > li > a {
+  color: blue;
+}
+.social ul > li > a:hover {
+  color: white;
+  text-decoration: none; 
+}

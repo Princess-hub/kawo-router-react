@@ -1,0 +1,18 @@
+/* content of startup */
+.list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.list ul > li {
+    list-style: none;
+}
+.content h3 {
+    margin-top: 30px;
+}
+
+.dp {
+    border: 1px solid #eee;
+    height: 80%;
+    width: 80%;
+}
